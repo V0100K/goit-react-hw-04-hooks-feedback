@@ -35,6 +35,13 @@ const Feedback = () => {
     return good + neutral + bad;
   };
 
+// WArning!!!!
+//   const result = Math.round(
+//       (good / countTotalFeedback()) * 100
+//     );
+//     return ;
+//   };
+
   const countPositiveFeedbackPercentage = () => {
     return Math.round(
         (good / countTotalFeedback()) * 100
